@@ -80,7 +80,7 @@ def menu_principal():
     }
     while True:
         limpiar_pantalla()
-        print('\nSistema de Gestión de Tareas')
+        print('\nAdministrador de Tareas')
         print('1. Agregar tarea')
         print('2. Mostrar todas las tareas')
         print('3. Buscar tarea por título')
