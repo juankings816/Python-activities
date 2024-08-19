@@ -15,7 +15,7 @@ def limpiar_pantalla():
 def agregar_contacto(contactos):
     try:
         nombre = input('Introduce el nombre del contacto: ')
-        telefono = input('Introduce el teléfono del contacto: ')
+        telefono = input('Introduce el celular del contacto: ')
         email = input('Introduce el email del contacto: ')
         contacto = Contacto(nombre, telefono, email)
         contactos.append(contacto)
